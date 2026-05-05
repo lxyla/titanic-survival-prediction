@@ -21,3 +21,21 @@ Missing values in the dataset are handled using suitable imputation techniques t
 
 ### 3. Training and Prediction  
 Machine learning models are trained on the processed dataset and evaluated based on their predictive performance. The final model is then used to generate survival predictions on unseen data.
+
+---
+
+## Dataset  
+
+This project uses the Titanic dataset, which consists of the following files:
+
+### `train.csv`  
+Contains information about passengers along with their survival status.  
+This dataset is used for training and validating the model, as it includes both input features and the target variable (`Survived`).
+
+### `test.csv`  
+Includes passenger data without survival labels.  
+This dataset is used to generate predictions on unseen data, simulating a real-world scenario where outcomes are unknown.
+
+### `gender_submission.csv`  
+A sample submission file that demonstrates the required format for submitting predictions.  
+It serves as a reference for structuring the model’s output correctly.
